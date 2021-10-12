@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./lib"
+  },
+  "files": [
+    "src/index.tsx" 
+  ]
+}

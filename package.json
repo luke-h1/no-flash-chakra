@@ -1,0 +1,48 @@
+{
+  "name": "@luke-h1/no-flash-chakra",
+  "version": "0.2.11",
+  "description": "Tools to implement flashless color modes in Chakra UI",
+  "author": "Luke Howsam <luke.howsam54@gmail.com>",
+  "repository": "luke-h1/no-flash-chakra",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "keywords": [
+    "chakra-ui",
+    "color",
+    "chakra",
+    "darkmode",
+    "fouc",
+    "flash"
+  ],
+  "eslintConfig": {
+    "extends": "@luke-h1/eslint-config/typescript"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "eslint src/*",
+    "test": "exit",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^1.6.9",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@trevorblades/eslint-config": "^7.2.5",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/react": "^17.0.29",
+    "eslint": "^8.0.0",
+    "react": "^17.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "lodash.merge": "^4.6.2",
+    "outdent": "^0.8.0"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": "^1.6.9"
+  }
+}
