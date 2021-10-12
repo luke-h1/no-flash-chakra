@@ -26,7 +26,7 @@ This library simplifies the creation of these light-sensitive color variables, a
 Before using this library, you should have installed [Chakra UI](https://chakra-ui.com/docs/getting-started#installation) and its dependencies.
 
 ```bash
-npm install chakra-ui-flashless
+npm install no-flash-chakra
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ First, wrap your theme overrides in the `flashless` function. If you use the def
 
 ```js
 import {extendTheme} from '@chakra-ui/react';
-import {flashless} from 'chakra-ui-flashless';
+import {flashless} from 'no-flash-chakra';
 
 // without overrides
 const theme = extendTheme(flashless());
@@ -74,7 +74,7 @@ In `gatsby-ssr.js`, set a `FlashlessScript` as a pre-body component using the [`
 import React from 'react';
 import theme from './src/theme';
 import {ChakraProvider} from '@chakra-ui/react';
-import {FlashlessScript} from 'chakra-ui-flashless';
+import {FlashlessScript} from 'no-flash-chakra';
 
 export const onRenderBody = ({setPreBodyComponents}) => {
   setPreBodyComponents([

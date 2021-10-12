@@ -1,5 +1,5 @@
 {
-  "name": "@luke-h1/no-flash-chakra",
+  "name": "no-flash-chakra",
   "version": "0.2.11",
   "description": "Tools to implement flashless color modes in Chakra UI",
   "author": "Luke Howsam <luke.howsam54@gmail.com>",
